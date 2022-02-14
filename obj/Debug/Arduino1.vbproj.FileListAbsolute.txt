@@ -1,0 +1,17 @@
+C:\Users\natha\source\repos\Arduino1\Arduino1\bin\Debug\Arduino1.exe.config
+C:\Users\natha\source\repos\Arduino1\Arduino1\bin\Debug\Arduino1.exe
+C:\Users\natha\source\repos\Arduino1\Arduino1\bin\Debug\Arduino1.pdb
+C:\Users\natha\source\repos\Arduino1\Arduino1\bin\Debug\Arduino1.xml
+C:\Users\natha\source\repos\Arduino1\Arduino1\bin\Debug\aa-DJ\Arduino1.resources.dll
+C:\Users\natha\source\repos\Arduino1\Arduino1\bin\Debug\Guna.UI2.dll
+C:\Users\natha\source\repos\Arduino1\Arduino1\obj\Debug\Arduino1.vbproj.AssemblyReference.cache
+C:\Users\natha\source\repos\Arduino1\Arduino1\obj\Debug\Arduino1.Form1.resources
+C:\Users\natha\source\repos\Arduino1\Arduino1\obj\Debug\Arduino1.Resources.resources
+C:\Users\natha\source\repos\Arduino1\Arduino1\obj\Debug\Arduino1.Form1.aa-DJ.resources
+C:\Users\natha\source\repos\Arduino1\Arduino1\obj\Debug\Arduino1.vbproj.GenerateResource.cache
+C:\Users\natha\source\repos\Arduino1\Arduino1\obj\Debug\Arduino1.vbproj.CoreCompileInputs.cache
+C:\Users\natha\source\repos\Arduino1\Arduino1\obj\Debug\aa-DJ\Arduino1.resources.dll
+C:\Users\natha\source\repos\Arduino1\Arduino1\obj\Debug\Arduino1.vbproj.CopyComplete
+C:\Users\natha\source\repos\Arduino1\Arduino1\obj\Debug\Arduino1.exe
+C:\Users\natha\source\repos\Arduino1\Arduino1\obj\Debug\Arduino1.xml
+C:\Users\natha\source\repos\Arduino1\Arduino1\obj\Debug\Arduino1.pdb
