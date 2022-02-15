@@ -15,3 +15,19 @@ C:\Users\natha\source\repos\Arduino1\Arduino1\obj\Debug\Arduino1.vbproj.CopyComp
 C:\Users\natha\source\repos\Arduino1\Arduino1\obj\Debug\Arduino1.exe
 C:\Users\natha\source\repos\Arduino1\Arduino1\obj\Debug\Arduino1.xml
 C:\Users\natha\source\repos\Arduino1\Arduino1\obj\Debug\Arduino1.pdb
+C:\Users\jiide\Documents\Visual Studio 2019\Projects\MusicPlaylistArduino\bin\Debug\Arduino1.exe.config
+C:\Users\jiide\Documents\Visual Studio 2019\Projects\MusicPlaylistArduino\bin\Debug\Arduino1.exe
+C:\Users\jiide\Documents\Visual Studio 2019\Projects\MusicPlaylistArduino\bin\Debug\Arduino1.pdb
+C:\Users\jiide\Documents\Visual Studio 2019\Projects\MusicPlaylistArduino\bin\Debug\Arduino1.xml
+C:\Users\jiide\Documents\Visual Studio 2019\Projects\MusicPlaylistArduino\bin\Debug\aa-DJ\Arduino1.resources.dll
+C:\Users\jiide\Documents\Visual Studio 2019\Projects\MusicPlaylistArduino\obj\Debug\Arduino1.vbproj.AssemblyReference.cache
+C:\Users\jiide\Documents\Visual Studio 2019\Projects\MusicPlaylistArduino\obj\Debug\Arduino1.Form1.resources
+C:\Users\jiide\Documents\Visual Studio 2019\Projects\MusicPlaylistArduino\obj\Debug\Arduino1.Resources.resources
+C:\Users\jiide\Documents\Visual Studio 2019\Projects\MusicPlaylistArduino\obj\Debug\Arduino1.Form1.aa-DJ.resources
+C:\Users\jiide\Documents\Visual Studio 2019\Projects\MusicPlaylistArduino\obj\Debug\Arduino1.vbproj.GenerateResource.cache
+C:\Users\jiide\Documents\Visual Studio 2019\Projects\MusicPlaylistArduino\obj\Debug\Arduino1.vbproj.CoreCompileInputs.cache
+C:\Users\jiide\Documents\Visual Studio 2019\Projects\MusicPlaylistArduino\obj\Debug\aa-DJ\Arduino1.resources.dll
+C:\Users\jiide\Documents\Visual Studio 2019\Projects\MusicPlaylistArduino\obj\Debug\Arduino1.vbproj.CopyComplete
+C:\Users\jiide\Documents\Visual Studio 2019\Projects\MusicPlaylistArduino\obj\Debug\Arduino1.exe
+C:\Users\jiide\Documents\Visual Studio 2019\Projects\MusicPlaylistArduino\obj\Debug\Arduino1.xml
+C:\Users\jiide\Documents\Visual Studio 2019\Projects\MusicPlaylistArduino\obj\Debug\Arduino1.pdb
