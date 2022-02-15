@@ -119,37 +119,24 @@ Public Class Form1
     End Sub
 
     Private Sub Guna2GradientButton1_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton1.Click
-        If title1.Enabled = True Then
-            SerialPort1.Open()
-            SerialPort1.Write("4/")
-            SerialPort1.Close()
-        ElseIf title2.Enabled = True Then
-            SerialPort1.Open()
-            SerialPort1.Write("5/")
-            SerialPort1.Close()
-        ElseIf title3.Enabled = True Then
-            SerialPort1.Open()
-            SerialPort1.Write("6/")
-            SerialPort1.Close()
+        If Label1.Text = title1.Text Then
+            SerialPort1.Write("2/")
+        ElseIf Label1.Text = title2.Text Then
+            SerialPort1.Write("3/")
+        ElseIf Label1.Text = title3.Text Then
+            SerialPort1.Write("1/")
+
 
         End If
     End Sub
 
     Private Sub Guna2GradientButton2_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton2.Click
-        If title1.Enabled = True Then
-            SerialPort1.Open()
-            SerialPort1.Write("7/")
-            SerialPort1.Close()
-
-        ElseIf title2.Enabled = True Then
-            SerialPort1.Open()
-            SerialPort1.Write("8/")
-            SerialPort1.Close()
-
-        ElseIf title3.Enabled = True Then
-            SerialPort1.Open()
-            SerialPort1.Write("9/")
-            SerialPort1.Close()
+        If Label1.Text = title1.Text Then
+            SerialPort1.Write("3/")
+        ElseIf Label1.Text = title3.Text Then
+            SerialPort1.Write("2/")
+        ElseIf Label1.Text = title2.Text Then
+            SerialPort1.Write("1/")
 
         End If
     End Sub
