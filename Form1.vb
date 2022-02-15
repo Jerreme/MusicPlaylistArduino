@@ -14,16 +14,20 @@ Public Class Form1
         If (comName <> "") Then
             SerialPort1.PortName = comName
             SerialPort1.BaudRate = 9600
-            SerialPort1.DataBits = 8
-            SerialPort1.Parity = Parity.None
-            'SerialPort1.StopBits = StopBits.None
-            SerialPort1.Handshake = Handshake.None
-            SerialPort1.Encoding = System.Text.Encoding.Default
-            SerialPort1.ReadTimeout = 10000
 
-            If (SerialPort1.IsOpen) Then
+            'Comment ko na to dinapala to need mga to
+            'SerialPort1.DataBits = 8
+            'SerialPort1.Parity = Parity.None
+            'SerialPort1.StopBits = StopBits.None
+            'SerialPort1.Handshake = Handshake.None
+            'SerialPort1.Encoding = System.Text.Encoding.Default
+            'SerialPort1.ReadTimeout = 10000
+
+
+            If (SerialPort1.IsOpen) Then 'if com is open then close it
                 SerialPort1.Close()
-            Else
+            Else 'if com is close the open it then close
+                'this re-established the connection
                 SerialPort1.Open()
                 SerialPort1.Close()
             End If
@@ -35,6 +39,7 @@ Public Class Form1
 
         For Each names As String In My.Computer.Ports.SerialPortNames
             If (Not names.Equals("")) Then
+                'find com
                 detected = names
             End If
         Next
@@ -42,6 +47,7 @@ Public Class Form1
         If (Not detected.Equals("")) Then
             If (Not detected.Equals(comPort)) Then
                 comPort = detected
+                'if comport has changed connect again
                 connectComPort(detected)
             End If
             Return True
@@ -64,12 +70,13 @@ Public Class Form1
                 SerialPort1.Close()
                 glow = False
             End If
-        Else
-            'Error Message Dialog
         End If
     End Sub
 
     Private Sub comListener_Tick(sender As Object, e As EventArgs) Handles comListener.Tick
+        'This is the listener to our port 
+        'This loops every 200ms 
+
         If (checkComPort()) Then
             connected = True
             comportLabel.Text = comPort
