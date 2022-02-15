@@ -43,7 +43,6 @@ Partial Class Form1
         Me.Guna2GradientButton1 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.SerialPort1 = New System.IO.Ports.SerialPort(Me.components)
         Me.comListener = New System.Windows.Forms.Timer(Me.components)
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.Guna2Panel1.SuspendLayout()
         Me.Guna2Panel5.SuspendLayout()
         Me.Guna2Panel4.SuspendLayout()
@@ -65,7 +64,6 @@ Partial Class Form1
         'Guna2Panel1
         '
         Me.Guna2Panel1.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.Guna2Panel1.Controls.Add(Me.CheckBox1)
         Me.Guna2Panel1.Controls.Add(Me.Guna2Panel5)
         Me.Guna2Panel1.Controls.Add(Me.Guna2Panel4)
         Me.Guna2Panel1.Controls.Add(Me.Guna2Panel3)
@@ -250,12 +248,6 @@ Partial Class Form1
         Me.comListener.Enabled = True
         Me.comListener.Interval = 200
         '
-        'CheckBox1
-        '
-        resources.ApplyResources(Me.CheckBox1, "CheckBox1")
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.UseVisualStyleBackColor = True
-        '
         'Form1
         '
         resources.ApplyResources(Me, "$this")
@@ -269,7 +261,6 @@ Partial Class Form1
         Me.Name = "Form1"
         Me.TransparencyKey = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Guna2Panel1.ResumeLayout(False)
-        Me.Guna2Panel1.PerformLayout()
         Me.Guna2Panel5.ResumeLayout(False)
         Me.Guna2Panel4.ResumeLayout(False)
         Me.Guna2Panel3.ResumeLayout(False)
@@ -296,5 +287,4 @@ Partial Class Form1
     Friend WithEvents SerialPort1 As IO.Ports.SerialPort
     Friend WithEvents comListener As Timer
     Friend WithEvents comportLabel As Label
-    Friend WithEvents CheckBox1 As CheckBox
 End Class
