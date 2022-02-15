@@ -117,9 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="Label1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Yu Gothic, 12pt, style=Bold</value>
@@ -154,22 +151,31 @@
     <value>Guna2Panel2</value>
   </data>
   <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
-  <metadata name="Guna2Panel1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Guna2Panel5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="title3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="artist3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="Guna2Panel5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
+  </data>
+  <data name="title3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic, 11.25pt, style=Bold</value>
+  </data>
+  <data name="title3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="title3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 13</value>
+  </data>
+  <data name="title3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>493, 24</value>
+  </data>
+  <data name="title3.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="title3.Text" xml:space="preserve">
+    <value>Coffin Dance</value>
+  </data>
+  <data name="title3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
   <data name="&gt;&gt;title3.Name" xml:space="preserve">
     <value>title3</value>
@@ -182,6 +188,24 @@
   </data>
   <data name="&gt;&gt;title3.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="artist3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic, 9pt, style=Bold</value>
+  </data>
+  <data name="artist3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="artist3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 37</value>
+  </data>
+  <data name="artist3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>491, 20</value>
+  </data>
+  <data name="artist3.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="artist3.Text" xml:space="preserve">
+    <value>Megaraptor</value>
   </data>
   <data name="&gt;&gt;artist3.Name" xml:space="preserve">
     <value>artist3</value>
@@ -219,17 +243,29 @@
   <data name="&gt;&gt;Guna2Panel5.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="Guna2Panel4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="title2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="artist2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="Guna2Panel4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
+  </data>
+  <data name="title2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic, 11.25pt, style=Bold</value>
+  </data>
+  <data name="title2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="title2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 13</value>
+  </data>
+  <data name="title2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>493, 24</value>
+  </data>
+  <data name="title2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="title2.Text" xml:space="preserve">
+    <value>Imperial March</value>
+  </data>
+  <data name="title2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
   <data name="&gt;&gt;title2.Name" xml:space="preserve">
     <value>title2</value>
@@ -242,6 +278,24 @@
   </data>
   <data name="&gt;&gt;title2.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="artist2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic, 9pt, style=Bold</value>
+  </data>
+  <data name="artist2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="artist2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 37</value>
+  </data>
+  <data name="artist2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>491, 20</value>
+  </data>
+  <data name="artist2.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="artist2.Text" xml:space="preserve">
+    <value>Star Wars</value>
   </data>
   <data name="&gt;&gt;artist2.Name" xml:space="preserve">
     <value>artist2</value>
@@ -279,15 +333,27 @@
   <data name="&gt;&gt;Guna2Panel4.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <metadata name="Guna2Panel3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="title1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="artist1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="title1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic, 11.25pt, style=Bold</value>
+  </data>
+  <data name="title1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="title1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 13</value>
+  </data>
+  <data name="title1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>493, 24</value>
+  </data>
+  <data name="title1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="title1.Text" xml:space="preserve">
+    <value>Never Gonna Give You Up</value>
+  </data>
+  <data name="title1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
   <data name="&gt;&gt;title1.Name" xml:space="preserve">
     <value>title1</value>
   </data>
@@ -299,6 +365,24 @@
   </data>
   <data name="&gt;&gt;title1.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="artist1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic, 9pt, style=Bold</value>
+  </data>
+  <data name="artist1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="artist1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 37</value>
+  </data>
+  <data name="artist1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>491, 20</value>
+  </data>
+  <data name="artist1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="artist1.Text" xml:space="preserve">
+    <value>Rick Astley</value>
   </data>
   <data name="&gt;&gt;artist1.Name" xml:space="preserve">
     <value>artist1</value>
@@ -360,324 +444,42 @@
   <data name="&gt;&gt;Guna2Panel1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <metadata name="title3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="title3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Yu Gothic, 11.25pt, style=Bold</value>
-  </data>
-  <data name="title3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="title3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>47, 13</value>
-  </data>
-  <data name="title3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>493, 24</value>
-  </data>
-  <data name="title3.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="title3.Text" xml:space="preserve">
-    <value>Coffin Dance</value>
-  </data>
-  <data name="title3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;title3.Name" xml:space="preserve">
-    <value>title3</value>
-  </data>
-  <data name="&gt;&gt;title3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;title3.Parent" xml:space="preserve">
-    <value>Guna2Panel5</value>
-  </data>
-  <data name="&gt;&gt;title3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <metadata name="artist3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="artist3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Yu Gothic, 9pt, style=Bold</value>
-  </data>
-  <data name="artist3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="artist3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>48, 37</value>
-  </data>
-  <data name="artist3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>491, 20</value>
-  </data>
-  <data name="artist3.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="artist3.Text" xml:space="preserve">
-    <value>Megaraptor</value>
-  </data>
-  <data name="&gt;&gt;artist3.Name" xml:space="preserve">
-    <value>artist3</value>
-  </data>
-  <data name="&gt;&gt;artist3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;artist3.Parent" xml:space="preserve">
-    <value>Guna2Panel5</value>
-  </data>
-  <data name="&gt;&gt;artist3.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <metadata name="title2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="title2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Yu Gothic, 11.25pt, style=Bold</value>
-  </data>
-  <data name="title2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="title2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>47, 13</value>
-  </data>
-  <data name="title2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>493, 24</value>
-  </data>
-  <data name="title2.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="title2.Text" xml:space="preserve">
-    <value>Imperial March</value>
-  </data>
-  <data name="title2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;title2.Name" xml:space="preserve">
-    <value>title2</value>
-  </data>
-  <data name="&gt;&gt;title2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;title2.Parent" xml:space="preserve">
-    <value>Guna2Panel4</value>
-  </data>
-  <data name="&gt;&gt;title2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <metadata name="artist2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="artist2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Yu Gothic, 9pt, style=Bold</value>
-  </data>
-  <data name="artist2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="artist2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>48, 37</value>
-  </data>
-  <data name="artist2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>491, 20</value>
-  </data>
-  <data name="artist2.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="artist2.Text" xml:space="preserve">
-    <value>Star Wars</value>
-  </data>
-  <data name="&gt;&gt;artist2.Name" xml:space="preserve">
-    <value>artist2</value>
-  </data>
-  <data name="&gt;&gt;artist2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;artist2.Parent" xml:space="preserve">
-    <value>Guna2Panel4</value>
-  </data>
-  <data name="&gt;&gt;artist2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <metadata name="title1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="title1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Yu Gothic, 11.25pt, style=Bold</value>
-  </data>
-  <data name="title1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="title1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>47, 13</value>
-  </data>
-  <data name="title1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>493, 24</value>
-  </data>
-  <data name="title1.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="title1.Text" xml:space="preserve">
-    <value>Never Gonna Give You Up</value>
-  </data>
-  <data name="title1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;title1.Name" xml:space="preserve">
-    <value>title1</value>
-  </data>
-  <data name="&gt;&gt;title1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;title1.Parent" xml:space="preserve">
-    <value>Guna2Panel3</value>
-  </data>
-  <data name="&gt;&gt;title1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <metadata name="artist1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="artist1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Yu Gothic, 9pt, style=Bold</value>
-  </data>
-  <data name="artist1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="artist1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>48, 37</value>
-  </data>
-  <data name="artist1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>491, 20</value>
-  </data>
-  <data name="artist1.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="artist1.Text" xml:space="preserve">
-    <value>Rick Astley</value>
-  </data>
-  <data name="&gt;&gt;artist1.Name" xml:space="preserve">
-    <value>artist1</value>
-  </data>
-  <data name="&gt;&gt;artist1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;artist1.Parent" xml:space="preserve">
-    <value>Guna2Panel3</value>
-  </data>
-  <data name="&gt;&gt;artist1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <metadata name="Guna2Panel2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="comportLabel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="artist.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Guna2GradientButton2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Guna2GradientButton3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Guna2GradientButton1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="Guna2Panel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
   </data>
   <data name="Guna2Panel2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="&gt;&gt;comportLabel.Name" xml:space="preserve">
-    <value>comportLabel</value>
+  <data name="play.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
   </data>
-  <data name="&gt;&gt;comportLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="play.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
   </data>
-  <data name="&gt;&gt;comportLabel.Parent" xml:space="preserve">
+  <data name="play.Location" type="System.Drawing.Point, System.Drawing">
+    <value>354, 48</value>
+  </data>
+  <data name="play.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 48</value>
+  </data>
+  <data name="play.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="play.Text" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="&gt;&gt;play.Name" xml:space="preserve">
+    <value>play</value>
+  </data>
+  <data name="&gt;&gt;play.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;play.Parent" xml:space="preserve">
     <value>Guna2Panel2</value>
   </data>
-  <data name="&gt;&gt;comportLabel.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;play.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;artist.Name" xml:space="preserve">
-    <value>artist</value>
-  </data>
-  <data name="&gt;&gt;artist.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;artist.Parent" xml:space="preserve">
-    <value>Guna2Panel2</value>
-  </data>
-  <data name="&gt;&gt;artist.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;Guna2GradientButton2.Name" xml:space="preserve">
-    <value>Guna2GradientButton2</value>
-  </data>
-  <data name="&gt;&gt;Guna2GradientButton2.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;Guna2GradientButton2.Parent" xml:space="preserve">
-    <value>Guna2Panel2</value>
-  </data>
-  <data name="&gt;&gt;Guna2GradientButton2.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;Guna2GradientButton3.Name" xml:space="preserve">
-    <value>Guna2GradientButton3</value>
-  </data>
-  <data name="&gt;&gt;Guna2GradientButton3.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;Guna2GradientButton3.Parent" xml:space="preserve">
-    <value>Guna2Panel2</value>
-  </data>
-  <data name="&gt;&gt;Guna2GradientButton3.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;Guna2GradientButton1.Name" xml:space="preserve">
-    <value>Guna2GradientButton1</value>
-  </data>
-  <data name="&gt;&gt;Guna2GradientButton1.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;Guna2GradientButton1.Parent" xml:space="preserve">
-    <value>Guna2Panel2</value>
-  </data>
-  <data name="&gt;&gt;Guna2GradientButton1.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="Guna2Panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-10, 383</value>
-  </data>
-  <data name="Guna2Panel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="Guna2Panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>585, 204</value>
-  </data>
-  <data name="Guna2Panel2.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;Guna2Panel2.Name" xml:space="preserve">
-    <value>Guna2Panel2</value>
-  </data>
-  <data name="&gt;&gt;Guna2Panel2.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;Guna2Panel2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Guna2Panel2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <metadata name="comportLabel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="comportLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Yu Gothic, 9pt, style=Bold</value>
   </data>
@@ -712,11 +514,8 @@
     <value>Guna2Panel2</value>
   </data>
   <data name="&gt;&gt;comportLabel.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
-  <metadata name="artist.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="artist.Font" type="System.Drawing.Font, System.Drawing">
     <value>Yu Gothic, 9pt, style=Bold</value>
   </data>
@@ -748,11 +547,8 @@
     <value>Guna2Panel2</value>
   </data>
   <data name="&gt;&gt;artist.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
-  <metadata name="Guna2GradientButton2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="Guna2GradientButton2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left</value>
   </data>
@@ -1170,44 +966,38 @@
     <value>Guna2Panel2</value>
   </data>
   <data name="&gt;&gt;Guna2GradientButton2.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <metadata name="Guna2GradientButton3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="Guna2GradientButton3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Left, Right</value>
-  </data>
-  <data name="Guna2GradientButton3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
-  <data name="Guna2GradientButton3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>227, 85</value>
-  </data>
-  <data name="Guna2GradientButton3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 48</value>
-  </data>
-  <data name="Guna2GradientButton3.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="Guna2GradientButton3.Text" xml:space="preserve">
-    <value>Stop</value>
-  </data>
-  <data name="&gt;&gt;Guna2GradientButton3.Name" xml:space="preserve">
-    <value>Guna2GradientButton3</value>
-  </data>
-  <data name="&gt;&gt;Guna2GradientButton3.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;Guna2GradientButton3.Parent" xml:space="preserve">
-    <value>Guna2Panel2</value>
-  </data>
-  <data name="&gt;&gt;Guna2GradientButton3.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <metadata name="Guna2GradientButton1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="btnStop.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="btnStop.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="btnStop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 85</value>
+  </data>
+  <data name="btnStop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 48</value>
+  </data>
+  <data name="btnStop.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnStop.Text" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="&gt;&gt;btnStop.Name" xml:space="preserve">
+    <value>btnStop</value>
+  </data>
+  <data name="&gt;&gt;btnStop.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;btnStop.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;btnStop.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
   <data name="Guna2GradientButton1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Right</value>
   </data>
@@ -1236,7 +1026,31 @@
     <value>Guna2Panel2</value>
   </data>
   <data name="&gt;&gt;Guna2GradientButton1.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
+  </data>
+  <data name="Guna2Panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10, 383</value>
+  </data>
+  <data name="Guna2Panel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Guna2Panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>585, 204</value>
+  </data>
+  <data name="Guna2Panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;Guna2Panel2.Name" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2Panel2.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Guna2Panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Guna2Panel2.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="SerialPort1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -1245,9 +1059,6 @@
     <value>127, 17</value>
   </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">

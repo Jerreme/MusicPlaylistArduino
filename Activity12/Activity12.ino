@@ -219,25 +219,28 @@ void setup() {
 }
 
 void loop() {
- 
+
+ if (Serial.available()> 0){
+  
     r = Serial.read();
     
   // Music 1
-    if (r==49 ){
+  
+    if (r=='1' ){
     Never_Gonna_Give_You_Up();
     
     Serial.flush();}
   // Music 2
-    else if (r==50 ){
+    else if (r=='2' ){
     Imperial_March();
     
     Serial.flush();}
   // Music 3
-    else if (r==51 ){
+    else if (r=='3' ){
     Coffin_Dance();
     
     Serial.flush();}
 
   delay(5000);
-  
+ }
 }

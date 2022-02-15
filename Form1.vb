@@ -58,7 +58,7 @@ Public Class Form1
 
     Dim glow As Boolean = False
 
-    Private Sub Guna2GradientButton3_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton3.Click
+    Private Sub Guna2GradientButton3_Click(sender As Object, e As EventArgs) Handles btnStop.Click
         Try
             If (connected) Then
 
@@ -66,11 +66,12 @@ Public Class Form1
                     SerialPort1.Open()
                     SerialPort1.Write("1")
                     SerialPort1.Close()
-                ElseIf label1.Text = title2.Text Then
+
+                ElseIf Label1.Text = title2.Text Then
                     SerialPort1.Open()
                     SerialPort1.Write("2")
                     SerialPort1.Close()
-                ElseIf label1.Text = title3.Text Then
+                ElseIf Label1.Text = title3.Text Then
                     SerialPort1.Open()
                     SerialPort1.Write("3")
                     SerialPort1.Close()
@@ -80,7 +81,10 @@ Public Class Form1
                     SerialPort1.Open()
                     SerialPort1.Write("0/")
                     SerialPort1.Close()
+
                 End If
+                play.Show()
+                btnStop.Hide()
             End If
         Catch ex As Exception
             MsgBox("Dont know" & vbCrLf & ex.Message)
@@ -191,5 +195,11 @@ Public Class Form1
     Private Sub artist2_Click(sender As Object, e As EventArgs) Handles artist2.Click
         Label1.Text = title2.Text
         artist.Text = artist2.Text
+    End Sub
+
+    Private Sub Guna2GradientButton4_Click(sender As Object, e As EventArgs) Handles play.Click
+        play.Hide()
+        btnStop.Show()
+
     End Sub
 End Class

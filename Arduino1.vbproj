@@ -148,6 +148,8 @@
     <None Include="Icon\StarWars.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Icon\play.jpg" />
+    <None Include="Icon\icons8_play_4.ico" />
     <Content Include="Icon\rickroll_4k.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />

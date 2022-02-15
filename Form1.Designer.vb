@@ -36,10 +36,11 @@ Partial Class Form1
         Me.title1 = New System.Windows.Forms.Label()
         Me.artist1 = New System.Windows.Forms.Label()
         Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.play = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.comportLabel = New System.Windows.Forms.Label()
         Me.artist = New System.Windows.Forms.Label()
         Me.Guna2GradientButton2 = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.Guna2GradientButton3 = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.btnStop = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2GradientButton1 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.SerialPort1 = New System.IO.Ports.SerialPort(Me.components)
         Me.comListener = New System.Windows.Forms.Timer(Me.components)
@@ -171,15 +172,29 @@ Partial Class Form1
         '
         resources.ApplyResources(Me.Guna2Panel2, "Guna2Panel2")
         Me.Guna2Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(206, Byte), Integer), CType(CType(212, Byte), Integer), CType(CType(218, Byte), Integer))
+        Me.Guna2Panel2.Controls.Add(Me.play)
         Me.Guna2Panel2.Controls.Add(Me.comportLabel)
         Me.Guna2Panel2.Controls.Add(Me.artist)
         Me.Guna2Panel2.Controls.Add(Me.Guna2GradientButton2)
-        Me.Guna2Panel2.Controls.Add(Me.Guna2GradientButton3)
+        Me.Guna2Panel2.Controls.Add(Me.btnStop)
         Me.Guna2Panel2.Controls.Add(Me.Guna2GradientButton1)
         Me.Guna2Panel2.Controls.Add(Me.Label1)
         Me.Guna2Panel2.ForeColor = System.Drawing.Color.Black
         Me.Guna2Panel2.Name = "Guna2Panel2"
         Me.Guna2Panel2.ShadowDecoration.Parent = Me.Guna2Panel2
+        '
+        'play
+        '
+        resources.ApplyResources(Me.play, "play")
+        Me.play.CheckedState.Parent = Me.play
+        Me.play.CustomImages.Parent = Me.play
+        Me.play.FillColor = System.Drawing.Color.FromArgb(CType(CType(157, Byte), Integer), CType(CType(80, Byte), Integer), CType(CType(187, Byte), Integer))
+        Me.play.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(110, Byte), Integer), CType(CType(72, Byte), Integer), CType(CType(170, Byte), Integer))
+        Me.play.ForeColor = System.Drawing.Color.White
+        Me.play.HoverState.Parent = Me.play
+        Me.play.Image = Global.Arduino1.My.Resources.Resources.icons8_play_4
+        Me.play.Name = "play"
+        Me.play.ShadowDecoration.Parent = Me.play
         '
         'comportLabel
         '
@@ -216,18 +231,18 @@ Partial Class Form1
         Me.Guna2GradientButton2.Name = "Guna2GradientButton2"
         Me.Guna2GradientButton2.ShadowDecoration.Parent = Me.Guna2GradientButton2
         '
-        'Guna2GradientButton3
+        'btnStop
         '
-        resources.ApplyResources(Me.Guna2GradientButton3, "Guna2GradientButton3")
-        Me.Guna2GradientButton3.CheckedState.Parent = Me.Guna2GradientButton3
-        Me.Guna2GradientButton3.CustomImages.Parent = Me.Guna2GradientButton3
-        Me.Guna2GradientButton3.FillColor = System.Drawing.Color.FromArgb(CType(CType(157, Byte), Integer), CType(CType(80, Byte), Integer), CType(CType(187, Byte), Integer))
-        Me.Guna2GradientButton3.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(110, Byte), Integer), CType(CType(72, Byte), Integer), CType(CType(170, Byte), Integer))
-        Me.Guna2GradientButton3.ForeColor = System.Drawing.Color.White
-        Me.Guna2GradientButton3.HoverState.Parent = Me.Guna2GradientButton3
-        Me.Guna2GradientButton3.Image = Global.Arduino1.My.Resources.Resources._Stop
-        Me.Guna2GradientButton3.Name = "Guna2GradientButton3"
-        Me.Guna2GradientButton3.ShadowDecoration.Parent = Me.Guna2GradientButton3
+        resources.ApplyResources(Me.btnStop, "btnStop")
+        Me.btnStop.CheckedState.Parent = Me.btnStop
+        Me.btnStop.CustomImages.Parent = Me.btnStop
+        Me.btnStop.FillColor = System.Drawing.Color.FromArgb(CType(CType(157, Byte), Integer), CType(CType(80, Byte), Integer), CType(CType(187, Byte), Integer))
+        Me.btnStop.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(110, Byte), Integer), CType(CType(72, Byte), Integer), CType(CType(170, Byte), Integer))
+        Me.btnStop.ForeColor = System.Drawing.Color.White
+        Me.btnStop.HoverState.Parent = Me.btnStop
+        Me.btnStop.Image = Global.Arduino1.My.Resources.Resources._Stop
+        Me.btnStop.Name = "btnStop"
+        Me.btnStop.ShadowDecoration.Parent = Me.btnStop
         '
         'Guna2GradientButton1
         '
@@ -272,7 +287,7 @@ Partial Class Form1
     Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents title1 As Label
     Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2GradientButton3 As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents btnStop As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2GradientButton1 As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2GradientButton2 As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents artist1 As Label
@@ -287,4 +302,5 @@ Partial Class Form1
     Friend WithEvents SerialPort1 As IO.Ports.SerialPort
     Friend WithEvents comListener As Timer
     Friend WithEvents comportLabel As Label
+    Friend WithEvents play As Guna.UI2.WinForms.Guna2GradientButton
 End Class
