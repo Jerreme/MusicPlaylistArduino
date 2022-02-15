@@ -126,13 +126,10 @@
     <value>NoControl</value>
   </data>
   <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 18</value>
-  </data>
-  <data name="Label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>3, 24</value>
   </data>
   <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>446, 18</value>
+    <value>580, 24</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Label1.TabIndex" type="System.Int32, mscorlib">
@@ -166,19 +163,16 @@
     <value>NoControl</value>
   </data>
   <data name="Label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>36, 10</value>
-  </data>
-  <data name="Label6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>47, 13</value>
   </data>
   <data name="Label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>379, 18</value>
+    <value>493, 24</value>
   </data>
   <data name="Label6.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
   <data name="Label6.Text" xml:space="preserve">
-    <value>TITLE SONG</value>
+    <value>Coffin Dance</value>
   </data>
   <data name="Label6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -202,13 +196,10 @@
     <value>NoControl</value>
   </data>
   <data name="Label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>37, 28</value>
-  </data>
-  <data name="Label7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>48, 37</value>
   </data>
   <data name="Label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>378, 15</value>
+    <value>491, 20</value>
   </data>
   <data name="Label7.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -229,13 +220,13 @@
     <value>1</value>
   </data>
   <data name="Guna2Panel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 175</value>
+    <value>0, 233</value>
   </data>
   <data name="Guna2Panel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="Guna2Panel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>450, 55</value>
+    <value>585, 73</value>
   </data>
   <data name="Guna2Panel5.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -262,19 +253,16 @@
     <value>NoControl</value>
   </data>
   <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>36, 10</value>
-  </data>
-  <data name="Label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>47, 13</value>
   </data>
   <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>379, 18</value>
+    <value>493, 24</value>
   </data>
   <data name="Label3.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
   <data name="Label3.Text" xml:space="preserve">
-    <value>TITLE SONG</value>
+    <value>Imperial March</value>
   </data>
   <data name="Label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -298,13 +286,10 @@
     <value>NoControl</value>
   </data>
   <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>37, 28</value>
-  </data>
-  <data name="Label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>48, 37</value>
   </data>
   <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>378, 15</value>
+    <value>491, 20</value>
   </data>
   <data name="Label4.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -325,13 +310,13 @@
     <value>1</value>
   </data>
   <data name="Guna2Panel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 120</value>
+    <value>0, 160</value>
   </data>
   <data name="Guna2Panel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="Guna2Panel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>450, 55</value>
+    <value>585, 73</value>
   </data>
   <data name="Guna2Panel4.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -358,19 +343,16 @@
     <value>NoControl</value>
   </data>
   <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>36, 10</value>
-  </data>
-  <data name="Label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>47, 13</value>
   </data>
   <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>379, 18</value>
+    <value>493, 24</value>
   </data>
   <data name="Label2.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
   <data name="Label2.Text" xml:space="preserve">
-    <value>TITLE SONG</value>
+    <value>Never gonna give you up</value>
   </data>
   <data name="Label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -394,13 +376,10 @@
     <value>NoControl</value>
   </data>
   <data name="Label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>37, 28</value>
-  </data>
-  <data name="Label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>48, 37</value>
   </data>
   <data name="Label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>378, 15</value>
+    <value>491, 20</value>
   </data>
   <data name="Label5.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -421,13 +400,13 @@
     <value>1</value>
   </data>
   <data name="Guna2Panel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 65</value>
+    <value>0, 87</value>
   </data>
   <data name="Guna2Panel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="Guna2Panel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>450, 55</value>
+    <value>585, 73</value>
   </data>
   <data name="Guna2Panel3.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -445,13 +424,13 @@
     <value>2</value>
   </data>
   <data name="Guna2Panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-8, -2</value>
+    <value>-10, -3</value>
   </data>
   <data name="Guna2Panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="Guna2Panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>450, 289</value>
+    <value>585, 385</value>
   </data>
   <data name="Guna2Panel1.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -481,16 +460,13 @@
     <value>NoControl</value>
   </data>
   <data name="comportLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-2, 138</value>
-  </data>
-  <data name="comportLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>-3, 184</value>
   </data>
   <data name="comportLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 10, 0</value>
+    <value>0, 0, 13, 0</value>
   </data>
   <data name="comportLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>450, 15</value>
+    <value>585, 20</value>
   </data>
   <data name="comportLabel.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -520,13 +496,10 @@
     <value>NoControl</value>
   </data>
   <data name="Label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 36</value>
-  </data>
-  <data name="Label8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>0, 48</value>
   </data>
   <data name="Label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>450, 15</value>
+    <value>585, 20</value>
   </data>
   <data name="Label8.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -945,13 +918,10 @@
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="Guna2GradientButton2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>70, 64</value>
-  </data>
-  <data name="Guna2GradientButton2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>91, 85</value>
   </data>
   <data name="Guna2GradientButton2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 36</value>
+    <value>130, 48</value>
   </data>
   <data name="Guna2GradientButton2.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -978,13 +948,10 @@
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="Guna2GradientButton3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>175, 64</value>
-  </data>
-  <data name="Guna2GradientButton3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>227, 85</value>
   </data>
   <data name="Guna2GradientButton3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 36</value>
+    <value>130, 48</value>
   </data>
   <data name="Guna2GradientButton3.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -1011,13 +978,10 @@
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="Guna2GradientButton1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>280, 64</value>
-  </data>
-  <data name="Guna2GradientButton1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>364, 85</value>
   </data>
   <data name="Guna2GradientButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 36</value>
+    <value>130, 48</value>
   </data>
   <data name="Guna2GradientButton1.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -1038,13 +1002,13 @@
     <value>4</value>
   </data>
   <data name="Guna2Panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-8, 287</value>
+    <value>-10, 383</value>
   </data>
   <data name="Guna2Panel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="Guna2Panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>450, 153</value>
+    <value>585, 204</value>
   </data>
   <data name="Guna2Panel2.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -1071,13 +1035,13 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>10, 18</value>
+    <value>13, 24</value>
   </data>
   <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>434, 441</value>
+    <value>562, 577</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Snap ITC, 10.8pt</value>
@@ -2215,13 +2179,13 @@
 </value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>450, 480</value>
+    <value>580, 624</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>450, 480</value>
+    <value>580, 624</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

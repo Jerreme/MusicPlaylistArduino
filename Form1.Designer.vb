@@ -36,13 +36,13 @@ Partial Class Form1
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.comportLabel = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Guna2GradientButton2 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2GradientButton3 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2GradientButton1 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.SerialPort1 = New System.IO.Ports.SerialPort(Me.components)
         Me.comListener = New System.Windows.Forms.Timer(Me.components)
-        Me.comportLabel = New System.Windows.Forms.Label()
         Me.Guna2Panel1.SuspendLayout()
         Me.Guna2Panel5.SuspendLayout()
         Me.Guna2Panel4.SuspendLayout()
@@ -178,6 +178,17 @@ Partial Class Form1
         Me.Guna2Panel2.Name = "Guna2Panel2"
         Me.Guna2Panel2.ShadowDecoration.Parent = Me.Guna2Panel2
         '
+        'comportLabel
+        '
+        Me.comportLabel.BackColor = System.Drawing.Color.Transparent
+        Me.comportLabel.Cursor = System.Windows.Forms.Cursors.WaitCursor
+        Me.comportLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        resources.ApplyResources(Me.comportLabel, "comportLabel")
+        Me.comportLabel.ForeColor = System.Drawing.Color.Gray
+        Me.comportLabel.Name = "comportLabel"
+        Me.comportLabel.UseMnemonic = False
+        Me.comportLabel.UseWaitCursor = True
+        '
         'Label8
         '
         Me.Label8.BackColor = System.Drawing.Color.Transparent
@@ -233,17 +244,6 @@ Partial Class Form1
         '
         Me.comListener.Enabled = True
         Me.comListener.Interval = 200
-        '
-        'comportLabel
-        '
-        Me.comportLabel.BackColor = System.Drawing.Color.Transparent
-        Me.comportLabel.Cursor = System.Windows.Forms.Cursors.WaitCursor
-        Me.comportLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        resources.ApplyResources(Me.comportLabel, "comportLabel")
-        Me.comportLabel.ForeColor = System.Drawing.Color.Gray
-        Me.comportLabel.Name = "comportLabel"
-        Me.comportLabel.UseMnemonic = False
-        Me.comportLabel.UseWaitCursor = True
         '
         'Form1
         '

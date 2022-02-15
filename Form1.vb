@@ -86,4 +86,12 @@ Public Class Form1
             comportLabel.Text = "Not Connected"
         End If
     End Sub
+
+    Private Sub comportLabel_Click(sender As Object, e As EventArgs) Handles comportLabel.Click
+
+    End Sub
+
+    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
+
+    End Sub
 End Class
