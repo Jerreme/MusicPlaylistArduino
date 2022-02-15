@@ -27,22 +27,23 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2Panel5 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
+        Me.title3 = New System.Windows.Forms.Label()
+        Me.artist3 = New System.Windows.Forms.Label()
         Me.Guna2Panel4 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
+        Me.title2 = New System.Windows.Forms.Label()
+        Me.artist2 = New System.Windows.Forms.Label()
         Me.Guna2Panel3 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
+        Me.title1 = New System.Windows.Forms.Label()
+        Me.artist1 = New System.Windows.Forms.Label()
         Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
         Me.comportLabel = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
+        Me.artist = New System.Windows.Forms.Label()
         Me.Guna2GradientButton2 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2GradientButton3 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2GradientButton1 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.SerialPort1 = New System.IO.Ports.SerialPort(Me.components)
         Me.comListener = New System.Windows.Forms.Timer(Me.components)
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.Guna2Panel1.SuspendLayout()
         Me.Guna2Panel5.SuspendLayout()
         Me.Guna2Panel4.SuspendLayout()
@@ -64,6 +65,7 @@ Partial Class Form1
         'Guna2Panel1
         '
         Me.Guna2Panel1.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.Guna2Panel1.Controls.Add(Me.CheckBox1)
         Me.Guna2Panel1.Controls.Add(Me.Guna2Panel5)
         Me.Guna2Panel1.Controls.Add(Me.Guna2Panel4)
         Me.Guna2Panel1.Controls.Add(Me.Guna2Panel3)
@@ -75,101 +77,104 @@ Partial Class Form1
         '
         resources.ApplyResources(Me.Guna2Panel5, "Guna2Panel5")
         Me.Guna2Panel5.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Guna2Panel5.Controls.Add(Me.Label6)
-        Me.Guna2Panel5.Controls.Add(Me.Label7)
+        Me.Guna2Panel5.Controls.Add(Me.title3)
+        Me.Guna2Panel5.Controls.Add(Me.artist3)
+        Me.Guna2Panel5.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Guna2Panel5.Name = "Guna2Panel5"
         Me.Guna2Panel5.ShadowDecoration.Parent = Me.Guna2Panel5
         '
-        'Label6
+        'title3
         '
-        Me.Label6.BackColor = System.Drawing.Color.Transparent
-        Me.Label6.Cursor = System.Windows.Forms.Cursors.WaitCursor
-        Me.Label6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        resources.ApplyResources(Me.Label6, "Label6")
-        Me.Label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label6.Name = "Label6"
-        Me.Label6.UseMnemonic = False
-        Me.Label6.UseWaitCursor = True
+        Me.title3.BackColor = System.Drawing.Color.Transparent
+        Me.title3.Cursor = System.Windows.Forms.Cursors.WaitCursor
+        Me.title3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        resources.ApplyResources(Me.title3, "title3")
+        Me.title3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.title3.Name = "title3"
+        Me.title3.UseMnemonic = False
+        Me.title3.UseWaitCursor = True
         '
-        'Label7
+        'artist3
         '
-        Me.Label7.BackColor = System.Drawing.Color.Transparent
-        Me.Label7.Cursor = System.Windows.Forms.Cursors.WaitCursor
-        Me.Label7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        resources.ApplyResources(Me.Label7, "Label7")
-        Me.Label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label7.Name = "Label7"
-        Me.Label7.UseMnemonic = False
-        Me.Label7.UseWaitCursor = True
+        Me.artist3.BackColor = System.Drawing.Color.Transparent
+        Me.artist3.Cursor = System.Windows.Forms.Cursors.WaitCursor
+        Me.artist3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        resources.ApplyResources(Me.artist3, "artist3")
+        Me.artist3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.artist3.Name = "artist3"
+        Me.artist3.UseMnemonic = False
+        Me.artist3.UseWaitCursor = True
         '
         'Guna2Panel4
         '
         resources.ApplyResources(Me.Guna2Panel4, "Guna2Panel4")
         Me.Guna2Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Guna2Panel4.Controls.Add(Me.Label3)
-        Me.Guna2Panel4.Controls.Add(Me.Label4)
+        Me.Guna2Panel4.Controls.Add(Me.title2)
+        Me.Guna2Panel4.Controls.Add(Me.artist2)
+        Me.Guna2Panel4.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Guna2Panel4.Name = "Guna2Panel4"
         Me.Guna2Panel4.ShadowDecoration.Parent = Me.Guna2Panel4
         '
-        'Label3
+        'title2
         '
-        Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Cursor = System.Windows.Forms.Cursors.WaitCursor
-        Me.Label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        resources.ApplyResources(Me.Label3, "Label3")
-        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label3.Name = "Label3"
-        Me.Label3.UseMnemonic = False
-        Me.Label3.UseWaitCursor = True
+        Me.title2.BackColor = System.Drawing.Color.Transparent
+        Me.title2.Cursor = System.Windows.Forms.Cursors.WaitCursor
+        Me.title2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        resources.ApplyResources(Me.title2, "title2")
+        Me.title2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.title2.Name = "title2"
+        Me.title2.UseMnemonic = False
+        Me.title2.UseWaitCursor = True
         '
-        'Label4
+        'artist2
         '
-        Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Cursor = System.Windows.Forms.Cursors.WaitCursor
-        Me.Label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        resources.ApplyResources(Me.Label4, "Label4")
-        Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label4.Name = "Label4"
-        Me.Label4.UseMnemonic = False
-        Me.Label4.UseWaitCursor = True
+        Me.artist2.BackColor = System.Drawing.Color.Transparent
+        Me.artist2.Cursor = System.Windows.Forms.Cursors.WaitCursor
+        Me.artist2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        resources.ApplyResources(Me.artist2, "artist2")
+        Me.artist2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.artist2.Name = "artist2"
+        Me.artist2.UseMnemonic = False
+        Me.artist2.UseWaitCursor = True
         '
         'Guna2Panel3
         '
-        resources.ApplyResources(Me.Guna2Panel3, "Guna2Panel3")
         Me.Guna2Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Guna2Panel3.Controls.Add(Me.Label2)
-        Me.Guna2Panel3.Controls.Add(Me.Label5)
+        Me.Guna2Panel3.Controls.Add(Me.title1)
+        Me.Guna2Panel3.Controls.Add(Me.artist1)
+        Me.Guna2Panel3.Cursor = System.Windows.Forms.Cursors.Hand
+        resources.ApplyResources(Me.Guna2Panel3, "Guna2Panel3")
         Me.Guna2Panel3.Name = "Guna2Panel3"
         Me.Guna2Panel3.ShadowDecoration.Parent = Me.Guna2Panel3
         '
-        'Label2
+        'title1
         '
-        Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Cursor = System.Windows.Forms.Cursors.WaitCursor
-        Me.Label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        resources.ApplyResources(Me.Label2, "Label2")
-        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label2.Name = "Label2"
-        Me.Label2.UseMnemonic = False
-        Me.Label2.UseWaitCursor = True
+        Me.title1.BackColor = System.Drawing.Color.Transparent
+        Me.title1.Cursor = System.Windows.Forms.Cursors.WaitCursor
+        Me.title1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        resources.ApplyResources(Me.title1, "title1")
+        Me.title1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.title1.Name = "title1"
+        Me.title1.UseMnemonic = False
+        Me.title1.UseWaitCursor = True
         '
-        'Label5
+        'artist1
         '
-        Me.Label5.BackColor = System.Drawing.Color.Transparent
-        Me.Label5.Cursor = System.Windows.Forms.Cursors.WaitCursor
-        Me.Label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        resources.ApplyResources(Me.Label5, "Label5")
-        Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label5.Name = "Label5"
-        Me.Label5.UseMnemonic = False
-        Me.Label5.UseWaitCursor = True
+        Me.artist1.BackColor = System.Drawing.Color.Transparent
+        Me.artist1.Cursor = System.Windows.Forms.Cursors.WaitCursor
+        Me.artist1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        resources.ApplyResources(Me.artist1, "artist1")
+        Me.artist1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.artist1.Name = "artist1"
+        Me.artist1.UseMnemonic = False
+        Me.artist1.UseWaitCursor = True
         '
         'Guna2Panel2
         '
         resources.ApplyResources(Me.Guna2Panel2, "Guna2Panel2")
         Me.Guna2Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(206, Byte), Integer), CType(CType(212, Byte), Integer), CType(CType(218, Byte), Integer))
         Me.Guna2Panel2.Controls.Add(Me.comportLabel)
-        Me.Guna2Panel2.Controls.Add(Me.Label8)
+        Me.Guna2Panel2.Controls.Add(Me.artist)
         Me.Guna2Panel2.Controls.Add(Me.Guna2GradientButton2)
         Me.Guna2Panel2.Controls.Add(Me.Guna2GradientButton3)
         Me.Guna2Panel2.Controls.Add(Me.Guna2GradientButton1)
@@ -189,16 +194,16 @@ Partial Class Form1
         Me.comportLabel.UseMnemonic = False
         Me.comportLabel.UseWaitCursor = True
         '
-        'Label8
+        'artist
         '
-        Me.Label8.BackColor = System.Drawing.Color.Transparent
-        Me.Label8.Cursor = System.Windows.Forms.Cursors.WaitCursor
-        Me.Label8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        resources.ApplyResources(Me.Label8, "Label8")
-        Me.Label8.ForeColor = System.Drawing.Color.Gray
-        Me.Label8.Name = "Label8"
-        Me.Label8.UseMnemonic = False
-        Me.Label8.UseWaitCursor = True
+        Me.artist.BackColor = System.Drawing.Color.Transparent
+        Me.artist.Cursor = System.Windows.Forms.Cursors.WaitCursor
+        Me.artist.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        resources.ApplyResources(Me.artist, "artist")
+        Me.artist.ForeColor = System.Drawing.Color.Gray
+        Me.artist.Name = "artist"
+        Me.artist.UseMnemonic = False
+        Me.artist.UseWaitCursor = True
         '
         'Guna2GradientButton2
         '
@@ -245,6 +250,12 @@ Partial Class Form1
         Me.comListener.Enabled = True
         Me.comListener.Interval = 200
         '
+        'CheckBox1
+        '
+        resources.ApplyResources(Me.CheckBox1, "CheckBox1")
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         resources.ApplyResources(Me, "$this")
@@ -258,6 +269,7 @@ Partial Class Form1
         Me.Name = "Form1"
         Me.TransparencyKey = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Guna2Panel1.ResumeLayout(False)
+        Me.Guna2Panel1.PerformLayout()
         Me.Guna2Panel5.ResumeLayout(False)
         Me.Guna2Panel4.ResumeLayout(False)
         Me.Guna2Panel3.ResumeLayout(False)
@@ -267,21 +279,22 @@ Partial Class Form1
     End Sub
     Friend WithEvents Label1 As Label
     Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Label2 As Label
+    Friend WithEvents title1 As Label
     Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2GradientButton3 As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2GradientButton1 As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2GradientButton2 As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents Label5 As Label
+    Friend WithEvents artist1 As Label
     Friend WithEvents Guna2Panel5 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Label7 As Label
+    Friend WithEvents title3 As Label
+    Friend WithEvents artist3 As Label
     Friend WithEvents Guna2Panel4 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
+    Friend WithEvents title2 As Label
+    Friend WithEvents artist2 As Label
     Friend WithEvents Guna2Panel3 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Label8 As Label
+    Friend WithEvents artist As Label
     Friend WithEvents SerialPort1 As IO.Ports.SerialPort
     Friend WithEvents comListener As Timer
     Friend WithEvents comportLabel As Label
+    Friend WithEvents CheckBox1 As CheckBox
 End Class
