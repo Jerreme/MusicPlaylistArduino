@@ -47,6 +47,11 @@ Arduino1
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Arduino1.My.Resources.Resources.rickroll_4k">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Arduino1.My.Resources.Resources.sound_waves_ico">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
