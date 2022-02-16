@@ -26,13 +26,13 @@ Partial Class Form1
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2Panel5 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.pnel3 = New Guna.UI2.WinForms.Guna2Panel()
         Me.title3 = New System.Windows.Forms.Label()
         Me.artist3 = New System.Windows.Forms.Label()
-        Me.Guna2Panel4 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.pnel2 = New Guna.UI2.WinForms.Guna2Panel()
         Me.title2 = New System.Windows.Forms.Label()
         Me.artist2 = New System.Windows.Forms.Label()
-        Me.Guna2Panel3 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.pnel1 = New Guna.UI2.WinForms.Guna2Panel()
         Me.title1 = New System.Windows.Forms.Label()
         Me.artist1 = New System.Windows.Forms.Label()
         Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
@@ -40,14 +40,13 @@ Partial Class Form1
         Me.comportLabel = New System.Windows.Forms.Label()
         Me.artist = New System.Windows.Forms.Label()
         Me.Guna2GradientButton2 = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.btnStop = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2GradientButton1 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.SerialPort1 = New System.IO.Ports.SerialPort(Me.components)
         Me.comListener = New System.Windows.Forms.Timer(Me.components)
         Me.Guna2Panel1.SuspendLayout()
-        Me.Guna2Panel5.SuspendLayout()
-        Me.Guna2Panel4.SuspendLayout()
-        Me.Guna2Panel3.SuspendLayout()
+        Me.pnel3.SuspendLayout()
+        Me.pnel2.SuspendLayout()
+        Me.pnel1.SuspendLayout()
         Me.Guna2Panel2.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -65,22 +64,22 @@ Partial Class Form1
         'Guna2Panel1
         '
         Me.Guna2Panel1.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.Guna2Panel1.Controls.Add(Me.Guna2Panel5)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2Panel4)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2Panel3)
+        Me.Guna2Panel1.Controls.Add(Me.pnel3)
+        Me.Guna2Panel1.Controls.Add(Me.pnel2)
+        Me.Guna2Panel1.Controls.Add(Me.pnel1)
         resources.ApplyResources(Me.Guna2Panel1, "Guna2Panel1")
         Me.Guna2Panel1.Name = "Guna2Panel1"
         Me.Guna2Panel1.ShadowDecoration.Parent = Me.Guna2Panel1
         '
-        'Guna2Panel5
+        'pnel3
         '
-        resources.ApplyResources(Me.Guna2Panel5, "Guna2Panel5")
-        Me.Guna2Panel5.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Guna2Panel5.Controls.Add(Me.title3)
-        Me.Guna2Panel5.Controls.Add(Me.artist3)
-        Me.Guna2Panel5.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Guna2Panel5.Name = "Guna2Panel5"
-        Me.Guna2Panel5.ShadowDecoration.Parent = Me.Guna2Panel5
+        resources.ApplyResources(Me.pnel3, "pnel3")
+        Me.pnel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.pnel3.Controls.Add(Me.title3)
+        Me.pnel3.Controls.Add(Me.artist3)
+        Me.pnel3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.pnel3.Name = "pnel3"
+        Me.pnel3.ShadowDecoration.Parent = Me.pnel3
         '
         'title3
         '
@@ -104,15 +103,15 @@ Partial Class Form1
         Me.artist3.UseMnemonic = False
         Me.artist3.UseWaitCursor = True
         '
-        'Guna2Panel4
+        'pnel2
         '
-        resources.ApplyResources(Me.Guna2Panel4, "Guna2Panel4")
-        Me.Guna2Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Guna2Panel4.Controls.Add(Me.title2)
-        Me.Guna2Panel4.Controls.Add(Me.artist2)
-        Me.Guna2Panel4.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Guna2Panel4.Name = "Guna2Panel4"
-        Me.Guna2Panel4.ShadowDecoration.Parent = Me.Guna2Panel4
+        resources.ApplyResources(Me.pnel2, "pnel2")
+        Me.pnel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.pnel2.Controls.Add(Me.title2)
+        Me.pnel2.Controls.Add(Me.artist2)
+        Me.pnel2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.pnel2.Name = "pnel2"
+        Me.pnel2.ShadowDecoration.Parent = Me.pnel2
         '
         'title2
         '
@@ -136,15 +135,15 @@ Partial Class Form1
         Me.artist2.UseMnemonic = False
         Me.artist2.UseWaitCursor = True
         '
-        'Guna2Panel3
+        'pnel1
         '
-        Me.Guna2Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Guna2Panel3.Controls.Add(Me.title1)
-        Me.Guna2Panel3.Controls.Add(Me.artist1)
-        Me.Guna2Panel3.Cursor = System.Windows.Forms.Cursors.Hand
-        resources.ApplyResources(Me.Guna2Panel3, "Guna2Panel3")
-        Me.Guna2Panel3.Name = "Guna2Panel3"
-        Me.Guna2Panel3.ShadowDecoration.Parent = Me.Guna2Panel3
+        Me.pnel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.pnel1.Controls.Add(Me.title1)
+        Me.pnel1.Controls.Add(Me.artist1)
+        Me.pnel1.Cursor = System.Windows.Forms.Cursors.Hand
+        resources.ApplyResources(Me.pnel1, "pnel1")
+        Me.pnel1.Name = "pnel1"
+        Me.pnel1.ShadowDecoration.Parent = Me.pnel1
         '
         'title1
         '
@@ -176,7 +175,6 @@ Partial Class Form1
         Me.Guna2Panel2.Controls.Add(Me.comportLabel)
         Me.Guna2Panel2.Controls.Add(Me.artist)
         Me.Guna2Panel2.Controls.Add(Me.Guna2GradientButton2)
-        Me.Guna2Panel2.Controls.Add(Me.btnStop)
         Me.Guna2Panel2.Controls.Add(Me.Guna2GradientButton1)
         Me.Guna2Panel2.Controls.Add(Me.Label1)
         Me.Guna2Panel2.ForeColor = System.Drawing.Color.Black
@@ -191,8 +189,9 @@ Partial Class Form1
         Me.play.FillColor = System.Drawing.Color.FromArgb(CType(CType(157, Byte), Integer), CType(CType(80, Byte), Integer), CType(CType(187, Byte), Integer))
         Me.play.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(110, Byte), Integer), CType(CType(72, Byte), Integer), CType(CType(170, Byte), Integer))
         Me.play.ForeColor = System.Drawing.Color.White
+        Me.play.HoverState.FillColor = System.Drawing.Color.Purple
         Me.play.HoverState.Parent = Me.play
-        Me.play.Image = Global.Arduino1.My.Resources.Resources.icons8_play_4
+        Me.play.Image = CType(resources.GetObject("play.Image"), System.Drawing.Image)
         Me.play.Name = "play"
         Me.play.ShadowDecoration.Parent = Me.play
         '
@@ -226,23 +225,11 @@ Partial Class Form1
         Me.Guna2GradientButton2.FillColor = System.Drawing.Color.FromArgb(CType(CType(157, Byte), Integer), CType(CType(80, Byte), Integer), CType(CType(187, Byte), Integer))
         Me.Guna2GradientButton2.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(110, Byte), Integer), CType(CType(72, Byte), Integer), CType(CType(170, Byte), Integer))
         Me.Guna2GradientButton2.ForeColor = System.Drawing.Color.White
+        Me.Guna2GradientButton2.HoverState.FillColor = System.Drawing.Color.Purple
         Me.Guna2GradientButton2.HoverState.Parent = Me.Guna2GradientButton2
-        Me.Guna2GradientButton2.Image = Global.Arduino1.My.Resources.Resources.Prev
+        Me.Guna2GradientButton2.Image = CType(resources.GetObject("Guna2GradientButton2.Image"), System.Drawing.Image)
         Me.Guna2GradientButton2.Name = "Guna2GradientButton2"
         Me.Guna2GradientButton2.ShadowDecoration.Parent = Me.Guna2GradientButton2
-        '
-        'btnStop
-        '
-        resources.ApplyResources(Me.btnStop, "btnStop")
-        Me.btnStop.CheckedState.Parent = Me.btnStop
-        Me.btnStop.CustomImages.Parent = Me.btnStop
-        Me.btnStop.FillColor = System.Drawing.Color.FromArgb(CType(CType(157, Byte), Integer), CType(CType(80, Byte), Integer), CType(CType(187, Byte), Integer))
-        Me.btnStop.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(110, Byte), Integer), CType(CType(72, Byte), Integer), CType(CType(170, Byte), Integer))
-        Me.btnStop.ForeColor = System.Drawing.Color.White
-        Me.btnStop.HoverState.Parent = Me.btnStop
-        Me.btnStop.Image = Global.Arduino1.My.Resources.Resources._Stop
-        Me.btnStop.Name = "btnStop"
-        Me.btnStop.ShadowDecoration.Parent = Me.btnStop
         '
         'Guna2GradientButton1
         '
@@ -253,8 +240,9 @@ Partial Class Form1
         Me.Guna2GradientButton1.FillColor = System.Drawing.Color.FromArgb(CType(CType(157, Byte), Integer), CType(CType(80, Byte), Integer), CType(CType(187, Byte), Integer))
         Me.Guna2GradientButton1.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(110, Byte), Integer), CType(CType(72, Byte), Integer), CType(CType(170, Byte), Integer))
         Me.Guna2GradientButton1.ForeColor = System.Drawing.Color.White
+        Me.Guna2GradientButton1.HoverState.FillColor = System.Drawing.Color.Purple
         Me.Guna2GradientButton1.HoverState.Parent = Me.Guna2GradientButton1
-        Me.Guna2GradientButton1.Image = Global.Arduino1.My.Resources.Resources._next
+        Me.Guna2GradientButton1.Image = CType(resources.GetObject("Guna2GradientButton1.Image"), System.Drawing.Image)
         Me.Guna2GradientButton1.Name = "Guna2GradientButton1"
         Me.Guna2GradientButton1.ShadowDecoration.Parent = Me.Guna2GradientButton1
         '
@@ -267,18 +255,17 @@ Partial Class Form1
         '
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.Arduino1.My.Resources.Resources.rickroll_4k
         Me.CancelButton = Me.Guna2GradientButton1
         Me.Controls.Add(Me.Guna2Panel2)
         Me.Controls.Add(Me.Guna2Panel1)
-        Me.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.ForeColor = System.Drawing.Color.FromArgb(CType(CType(153, Byte), Integer), CType(CType(221, Byte), Integer), CType(CType(204, Byte), Integer))
         Me.MaximizeBox = False
         Me.Name = "Form1"
         Me.TransparencyKey = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Guna2Panel1.ResumeLayout(False)
-        Me.Guna2Panel5.ResumeLayout(False)
-        Me.Guna2Panel4.ResumeLayout(False)
-        Me.Guna2Panel3.ResumeLayout(False)
+        Me.pnel3.ResumeLayout(False)
+        Me.pnel2.ResumeLayout(False)
+        Me.pnel1.ResumeLayout(False)
         Me.Guna2Panel2.ResumeLayout(False)
         Me.ResumeLayout(False)
 
@@ -287,17 +274,16 @@ Partial Class Form1
     Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents title1 As Label
     Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents btnStop As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2GradientButton1 As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2GradientButton2 As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents artist1 As Label
-    Friend WithEvents Guna2Panel5 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents pnel3 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents title3 As Label
     Friend WithEvents artist3 As Label
-    Friend WithEvents Guna2Panel4 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents pnel2 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents title2 As Label
     Friend WithEvents artist2 As Label
-    Friend WithEvents Guna2Panel3 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents pnel1 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents artist As Label
     Friend WithEvents SerialPort1 As IO.Ports.SerialPort
     Friend WithEvents comListener As Timer

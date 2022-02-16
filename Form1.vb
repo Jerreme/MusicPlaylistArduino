@@ -58,37 +58,8 @@ Public Class Form1
 
     Dim glow As Boolean = False
 
-    Private Sub Guna2GradientButton3_Click(sender As Object, e As EventArgs) Handles btnStop.Click
-        Try
-            If (connected) Then
+    Private Sub Guna2GradientButton3_Click(sender As Object, e As EventArgs)
 
-                If Label1.Text = title1.Text Then
-                    SerialPort1.Open()
-                    SerialPort1.Write("1")
-                    SerialPort1.Close()
-
-                ElseIf Label1.Text = title2.Text Then
-                    SerialPort1.Open()
-                    SerialPort1.Write("2")
-                    SerialPort1.Close()
-                ElseIf Label1.Text = title3.Text Then
-                    SerialPort1.Open()
-                    SerialPort1.Write("3")
-                    SerialPort1.Close()
-
-
-                Else
-                    SerialPort1.Open()
-                    SerialPort1.Write("0/")
-                    SerialPort1.Close()
-
-                End If
-                play.Show()
-                btnStop.Hide()
-            End If
-        Catch ex As Exception
-            MsgBox("Dont know" & vbCrLf & ex.Message)
-        End Try
     End Sub
 
     Private Function Label2_Click() As Boolean
@@ -114,6 +85,7 @@ Public Class Form1
     End Sub
 
     Private Sub Label2_Click(sender As Object, e As EventArgs) Handles title1.Click
+
         Label1.Text = title1.Text
         artist.Text = artist1.Text
         SerialPort1.Open()
@@ -124,11 +96,25 @@ Public Class Form1
 
     Private Sub Guna2GradientButton1_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton1.Click
         If Label1.Text = title1.Text Then
-            SerialPort1.Write("2/")
+            Label1.Text = title2.Text
+            artist.Text = artist2.Text
+            SerialPort1.Open()
+            SerialPort1.Write("2")
+            SerialPort1.Close()
+
         ElseIf Label1.Text = title2.Text Then
-            SerialPort1.Write("3/")
+            Label1.Text = title3.Text
+            artist.Text = artist3.Text
+            SerialPort1.Open()
+            SerialPort1.Write("3")
+            SerialPort1.Close()
+
         ElseIf Label1.Text = title3.Text Then
-            SerialPort1.Write("1/")
+            Label1.Text = title1.Text
+            artist.Text = artist1.Text
+            SerialPort1.Open()
+            SerialPort1.Write("1")
+            SerialPort1.Close()
 
 
         End If
@@ -136,17 +122,27 @@ Public Class Form1
 
     Private Sub Guna2GradientButton2_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton2.Click
         If Label1.Text = title1.Text Then
-            SerialPort1.Write("3/")
+            Label1.Text = title3.Text
+            artist.Text = artist3.Text
+            SerialPort1.Open()
+            SerialPort1.Write("3")
+            SerialPort1.Close()
+
         ElseIf Label1.Text = title3.Text Then
-            SerialPort1.Write("2/")
+            Label1.Text = title2.Text
+            artist.Text = artist2.Text
+            SerialPort1.Open()
+            SerialPort1.Write("2")
+            SerialPort1.Close()
+
         ElseIf Label1.Text = title2.Text Then
-            SerialPort1.Write("1/")
+            Label1.Text = title1.Text
+            artist.Text = artist1.Text
+            SerialPort1.Open()
+            SerialPort1.Write("1")
+            SerialPort1.Close()
 
         End If
-    End Sub
-
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
-
     End Sub
 
     Private Sub title2_Click(sender As Object, e As EventArgs) Handles title2.Click
@@ -172,20 +168,6 @@ Public Class Form1
         artist.Text = artist1.Text
     End Sub
 
-    Private Sub Guna2Panel3_Paint(sender As Object, e As PaintEventArgs) Handles Guna2Panel3.Paint
-        Label1.Text = title1.Text
-        artist.Text = artist1.Text
-    End Sub
-
-    Private Sub Guna2Panel4_Paint(sender As Object, e As PaintEventArgs) Handles Guna2Panel4.Paint
-        Label1.Text = title2.Text
-        artist.Text = artist2.Text
-    End Sub
-
-    Private Sub Guna2Panel5_Paint(sender As Object, e As PaintEventArgs) Handles Guna2Panel5.Paint
-        Label1.Text = title3.Text
-        artist.Text = artist3.Text
-    End Sub
 
     Private Sub artist3_Click(sender As Object, e As EventArgs) Handles artist3.Click
         Label1.Text = title3.Text
@@ -198,8 +180,165 @@ Public Class Form1
     End Sub
 
     Private Sub Guna2GradientButton4_Click(sender As Object, e As EventArgs) Handles play.Click
-        play.Hide()
-        btnStop.Show()
+
+        Try
+            If (connected) Then
+
+                SerialPort1.Open()
+                    SerialPort1.Write("0/")
+                    SerialPort1.Close()
+                    play.Text = play.Text
+                    artist.Text = artist.Text
+
+
+
+
+
+            End If
+        Catch ex As Exception
+            MsgBox("Dont know" & vbCrLf & ex.Message)
+        End Try
+
+    End Sub
+
+    Private Sub Guna2GradientButton3_Click_1(sender As Object, e As EventArgs)
+        SerialPort1.Open()
+        SerialPort1.Write("0/")
+        SerialPort1.Close()
+    End Sub
+
+    Private Sub Guna2Panel3_Enter(sender As Object, e As EventArgs) Handles pnel1.Enter
+
+    End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+        Label1.Text = Label1.Text
+        artist.Text = artist.Text
+        SerialPort1.Open()
+        SerialPort1.Write("0/")
+        SerialPort1.Close()
+    End Sub
+
+    Private Sub artist_Click(sender As Object, e As EventArgs) Handles artist.Click
+        Label1.Text = Label1.Text
+        artist.Text = artist.Text
+        SerialPort1.Open()
+        SerialPort1.Write("0/")
+        SerialPort1.Close()
+    End Sub
+
+    Private Sub pnel1_MouseEnter(sender As Object, e As EventArgs) Handles pnel1.MouseEnter
+        pnel1.BackColor = Color.Aqua
+        title1.BackColor = Color.Aqua
+        artist1.BackColor = Color.Aqua
+    End Sub
+
+    Private Sub pnel1_MouseLeave(sender As Object, e As EventArgs) Handles pnel1.MouseLeave
+        pnel1.BackColor = DefaultBackColor
+        title1.BackColor = DefaultBackColor
+        artist1.BackColor = DefaultBackColor
+    End Sub
+
+    Private Sub title1_MouseEnter(sender As Object, e As EventArgs) Handles title1.MouseEnter
+        pnel1.BackColor = Color.Aqua
+        title1.BackColor = Color.Aqua
+        artist1.BackColor = Color.Aqua
+    End Sub
+
+    Private Sub title1_MouseLeave(sender As Object, e As EventArgs) Handles title1.MouseLeave
+        pnel1.BackColor = DefaultBackColor
+        title1.BackColor = DefaultBackColor
+        artist1.BackColor = DefaultBackColor
+    End Sub
+
+    Private Sub artist1_MouseLeave(sender As Object, e As EventArgs) Handles artist1.MouseLeave
+        pnel1.BackColor = DefaultBackColor
+        title1.BackColor = DefaultBackColor
+        artist1.BackColor = DefaultBackColor
+    End Sub
+
+    Private Sub artist1_MouseEnter(sender As Object, e As EventArgs) Handles artist1.MouseEnter
+        pnel1.BackColor = Color.Aqua
+        title1.BackColor = Color.Aqua
+        artist1.BackColor = Color.Aqua
+    End Sub
+
+    Private Sub title2_MouseEnter(sender As Object, e As EventArgs) Handles title2.MouseEnter
+        pnel2.BackColor = Color.Aqua
+        title2.BackColor = Color.Aqua
+        artist2.BackColor = Color.Aqua
+    End Sub
+
+    Private Sub title2_MouseLeave(sender As Object, e As EventArgs) Handles title2.MouseLeave
+        pnel2.BackColor = DefaultBackColor
+        title2.BackColor = DefaultBackColor
+        artist2.BackColor = DefaultBackColor
+    End Sub
+
+    Private Sub artist2_MouseEnter(sender As Object, e As EventArgs) Handles artist2.MouseEnter
+        pnel2.BackColor = Color.Aqua
+        title2.BackColor = Color.Aqua
+        artist2.BackColor = Color.Aqua
+    End Sub
+
+    Private Sub artist2_MouseLeave(sender As Object, e As EventArgs) Handles artist2.MouseLeave
+        pnel2.BackColor = DefaultBackColor
+        title2.BackColor = DefaultBackColor
+        artist2.BackColor = DefaultBackColor
+    End Sub
+
+    Private Sub pnel2_MouseLeave(sender As Object, e As EventArgs) Handles pnel2.MouseLeave
+        pnel2.BackColor = DefaultBackColor
+        title2.BackColor = DefaultBackColor
+        artist2.BackColor = DefaultBackColor
+    End Sub
+
+    Private Sub pnel2_MouseEnter(sender As Object, e As EventArgs) Handles pnel2.MouseEnter
+        pnel2.BackColor = Color.Aqua
+        title2.BackColor = Color.Aqua
+        artist2.BackColor = Color.Aqua
+    End Sub
+
+    Private Sub pnel3_MouseEnter(sender As Object, e As EventArgs) Handles pnel3.MouseEnter
+        pnel3.BackColor = Color.Aqua
+        title3.BackColor = Color.Aqua
+        artist3.BackColor = Color.Aqua
+    End Sub
+
+    Private Sub pnel3_MouseLeave(sender As Object, e As EventArgs) Handles pnel3.MouseLeave
+        pnel3.BackColor = DefaultBackColor
+        title3.BackColor = DefaultBackColor
+        artist3.BackColor = DefaultBackColor
+    End Sub
+
+    Private Sub title3_MouseEnter(sender As Object, e As EventArgs) Handles title3.MouseEnter
+        pnel3.BackColor = Color.Aqua
+        title3.BackColor = Color.Aqua
+        artist3.BackColor = Color.Aqua
+    End Sub
+
+    Private Sub artist3_MouseEnter(sender As Object, e As EventArgs) Handles artist3.MouseEnter
+        pnel3.BackColor = Color.Aqua
+        title3.BackColor = Color.Aqua
+        artist3.BackColor = Color.Aqua
+    End Sub
+
+    Private Sub artist3_MouseLeave(sender As Object, e As EventArgs) Handles artist3.MouseLeave
+        pnel3.BackColor = DefaultBackColor
+        title3.BackColor = DefaultBackColor
+        artist3.BackColor = DefaultBackColor
+    End Sub
+
+    Private Sub play_DoubleClick(sender As Object, e As EventArgs) Handles play.DoubleClick
+
+        SerialPort1.Open()
+        SerialPort1.Write("0/")
+        SerialPort1.Close()
+        play.Text = play.Text
+        artist.Text = artist.Text
+    End Sub
+
+    Private Sub pnel1_Paint(sender As Object, e As PaintEventArgs) Handles pnel1.Paint
 
     End Sub
 End Class

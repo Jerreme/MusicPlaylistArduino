@@ -13,7 +13,11 @@ int ledLevel = 1; // 1(min) to 4(max)
 const int high = 510;
 const int mid = 300;
 const int low = 80;
-char r;                                                        
+char r;    
+
+
+
+
 void LED_Visualizer(int pitch, int delayT) { 
   if (pitch > high) {
     ledLevel = 4;
@@ -40,7 +44,7 @@ void LED_Visualizer(int pitch, int delayT) {
 
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 // Coffin Dance 
-int melody2[] = {
+ int melody2[] = {
   NOTE_AS4, NOTE_AS4, NOTE_AS4, NOTE_AS4,
   NOTE_AS4, NOTE_AS4, NOTE_AS4, NOTE_AS4,
   NOTE_AS4, NOTE_AS4, NOTE_AS4, NOTE_AS4,
@@ -75,71 +79,66 @@ void Coffin_Dance() {
   int noteDuration = 750 / 4;
   for (int i=0; i<1; i++) {
     for (int thisNote = 0; thisNote<sizeof(melody2)/sizeof(melody2[0]); thisNote++) {
+      if (readSerialReceive1() == NULL) {
       tone(8, melody2[thisNote], noteDuration);
       LED_Visualizer(melody2[thisNote], noteDuration);
 
       noTone(8);
       delay(noteDuration*0.30);
+      }else {
+      playMe(r);
+      return;}
     }
   }
 }
 
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 // Imperial March - Star Wars
-
-#define REST    0
-// change this to make the song slower or faster
-int tempo = 120;
-// this calculates the duration of a whole note in ms
-int wholenote = (60000 * 4) / tempo;
-
-int melody[] = {
-  NOTE_A4,-4, NOTE_A4,-4, NOTE_A4,16, NOTE_A4,16, NOTE_A4,16, NOTE_A4,16, NOTE_F4,8, REST,8,
-  NOTE_A4,-4, NOTE_A4,-4, NOTE_A4,16, NOTE_A4,16, NOTE_A4,16, NOTE_A4,16, NOTE_F4,8, REST,8,
-  NOTE_A4,4, NOTE_A4,4, NOTE_A4,4, NOTE_F4,-8, NOTE_C5,16,
-
-  NOTE_A4,4, NOTE_F4,-8, NOTE_C5,16, NOTE_A4,2,//4
-  NOTE_E5,4, NOTE_E5,4, NOTE_E5,4, NOTE_F5,-8, NOTE_C5,16,
-  NOTE_A4,4, NOTE_F4,-8, NOTE_C5,16, NOTE_A4,2,
   
-  NOTE_A5,4, NOTE_A4,-8, NOTE_A4,16, NOTE_A5,4, NOTE_GS5,-8, NOTE_G5,16, //7 
-  NOTE_DS5,16, NOTE_D5,16, NOTE_DS5,8, REST,8, NOTE_A4,8, NOTE_DS5,4, NOTE_D5,-8, NOTE_CS5,16,
+  #define REST    0
+  // change this to make the song slower or faster
+  int tempo = 120;
+  // this calculates the duration of a whole note in ms
+  
+  int melody3[] = {
+    NOTE_A4,-4, NOTE_A4,-4, NOTE_A4,16, NOTE_A4,16, NOTE_A4,16, NOTE_A4,16, NOTE_F4,8, REST,8,
+    NOTE_A4,-4, NOTE_A4,-4, NOTE_A4,16, NOTE_A4,16, NOTE_A4,16, NOTE_A4,16, NOTE_F4,8, REST,8,
+    NOTE_A4,4, NOTE_A4,4, NOTE_A4,4, NOTE_F4,-8, NOTE_C5,16,
+  
+    NOTE_A4,4, NOTE_F4,-8, NOTE_C5,16, NOTE_A4,2,//4
+    NOTE_E5,4, NOTE_E5,4, NOTE_E5,4, NOTE_F5,-8, NOTE_C5,16,
+    NOTE_A4,4, NOTE_F4,-8, NOTE_C5,16, NOTE_A4,2,
+    
+    NOTE_A5,4, NOTE_A4,-8, NOTE_A4,16, NOTE_A5,4, NOTE_GS5,-8, NOTE_G5,16, //7 
+    NOTE_DS5,16, NOTE_D5,16, NOTE_DS5,8, REST,8, NOTE_A4,8, NOTE_DS5,4, NOTE_D5,-8, NOTE_CS5,16,
+  
+    NOTE_C5,16, NOTE_B4,16, NOTE_C5,16, REST,8, NOTE_F4,8, NOTE_GS4,4, NOTE_F4,-8, NOTE_A4,-16,//9
+    NOTE_C5,4, NOTE_A4,-8, NOTE_C5,16, NOTE_E5,2,
+  
+    NOTE_A5,4, NOTE_A4,-8, NOTE_A4,16, NOTE_A5,4, NOTE_GS5,-8, NOTE_G5,16, //7 
+    NOTE_DS5,16, NOTE_D5,16, NOTE_DS5,8, REST,8, NOTE_A4,8, NOTE_DS5,4, NOTE_D5,-8, NOTE_CS5,16,
+  
+    NOTE_C5,16, NOTE_B4,16, NOTE_C5,16, REST,8, NOTE_F4,8, NOTE_GS4,4, NOTE_F4,-8, NOTE_A4,-16,//9
+    NOTE_A4,4, NOTE_F4,-8, NOTE_C5,16, NOTE_A4,2,
+  };
+  
+  void Imperial_March() {
+    int wholenote = (6000 * 4) /tempo ;
+  
+      for (int i=0; i<1; i++) {
+         for (int thisNote = 0; thisNote<sizeof(melody3)/sizeof(melody3[0]); thisNote++) {
+               if (readSerialReceive2() == NULL) {
+                  tone(8, melody3[thisNote], wholenote);
+                  LED_Visualizer(melody3[thisNote], wholenote);
 
-  NOTE_C5,16, NOTE_B4,16, NOTE_C5,16, REST,8, NOTE_F4,8, NOTE_GS4,4, NOTE_F4,-8, NOTE_A4,-16,//9
-  NOTE_C5,4, NOTE_A4,-8, NOTE_C5,16, NOTE_E5,2,
-
-  NOTE_A5,4, NOTE_A4,-8, NOTE_A4,16, NOTE_A5,4, NOTE_GS5,-8, NOTE_G5,16, //7 
-  NOTE_DS5,16, NOTE_D5,16, NOTE_DS5,8, REST,8, NOTE_A4,8, NOTE_DS5,4, NOTE_D5,-8, NOTE_CS5,16,
-
-  NOTE_C5,16, NOTE_B4,16, NOTE_C5,16, REST,8, NOTE_F4,8, NOTE_GS4,4, NOTE_F4,-8, NOTE_A4,-16,//9
-  NOTE_A4,4, NOTE_F4,-8, NOTE_C5,16, NOTE_A4,2,
-};
-
-int notes = sizeof(melody) / sizeof(melody[0]) / 2;
-int divider = 0, noteDuration = 0;
-void Imperial_March() {
-  for (int thisNote = 0; thisNote < notes * 2; thisNote = thisNote + 2) {
-
-    // calculates the duration of each note
-    divider = melody[thisNote + 1];
-    if (divider > 0) {
-      // regular note, just proceed
-      noteDuration = (wholenote) / divider;
-    } else if (divider < 0) {
-      // dotted notes are represented with negative durations!!
-      noteDuration = (wholenote) / abs(divider);
-      noteDuration *= 1.5; // increases the duration in half for dotted notes
+             noTone(8);
+              delay(wholenote*0.1);
+      }else {
+      playMe(r);
+      return;}
     }
-
-    // we only play the note for 90% of the duration, leaving 10% as a pause
-    tone(buzzPin, melody[thisNote], noteDuration);
-    LED_Visualizer(melody2[thisNote], noteDuration);
-
-    noTone(buzzPin);
-    delay((noteDuration*0.1));
   }
-}
-
+  }
 
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 // Rick Astley - Never Gonna Give You Up 
@@ -190,23 +189,75 @@ void playMusic1(int MELODY[], int MELODY_RYTH[], int size) {
   int notelength;
   
   for (int i=0; i<size; i++) {
-    notelength = beatlength * MELODY_RYTH[i];
-    tone(buzzPin, MELODY[i], notelength);
-    LED_Visualizer(MELODY[i], notelength);
-
-    noTone(buzzPin);
-    delay(notelength*0.3);
+    if (readSerialReceive() == NULL) {
+      notelength = beatlength * MELODY_RYTH[i];
+      tone(buzzPin, MELODY[i], notelength);
+      LED_Visualizer(MELODY[i], notelength);
+  
+      noTone(buzzPin);
+      delay(notelength*0.3);
+    }else {
+      playMe(r);
+      return;
+    }
   }
 }
 
 void Never_Gonna_Give_You_Up() {
-  playMusic1(INTRO, INTRO_RYTH,  sizeof(INTRO) / sizeof(int));
+  
+  playMusic1(CHORUS, CHORUS_RYTH,  sizeof(CHORUS) / sizeof(int));
   playMusic1(VERSE, VERSE_RYTH,  sizeof(VERSE) / sizeof(int));
   playMusic1(CHORUS, CHORUS_RYTH,  sizeof(CHORUS) / sizeof(int));
-  playMusic1(CHORUS, CHORUS_RYTH,  sizeof(CHORUS) / sizeof(int));
+  playMusic1(INTRO, INTRO_RYTH,  sizeof(INTRO) / sizeof(int));
+  
 }
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
+void playMe(char key) {
+  // Music 1
+  if (key=='1'){
+    Never_Gonna_Give_You_Up();
+    }
+  // Music 2
+  else if (key=='2'){
+    Imperial_March();
+    Serial.flush();}
+  // Music 3
+  else if (key=='3'){
+    Coffin_Dance();
+    }
+  else if (key=='0') {
+    noTone(buzzPin);
+    for (int i=led1; i <= led4; i++) 
+      digitalWrite(i, LOW);
+  }
+}
+
+char readSerialReceive() {
+  if (Serial.available() > 0) {
+    r = Serial.read();
+    return r;
+  }else {
+    return ;
+  }
+}   
+
+char readSerialReceive1() {
+  if (Serial.available() > 4) {
+    r = Serial.read();
+    return r;
+  }else {
+    return ;
+  }
+} 
+char readSerialReceive2() {
+  if (Serial.available() > 8) {
+    r = Serial.read();
+    return r;
+  }else {
+    return ;
+  }
+}   
 void setup() {
   Serial.begin(9600);
   pinMode(buzzPin, OUTPUT);
@@ -219,28 +270,11 @@ void setup() {
 }
 
 void loop() {
-
- if (Serial.available()> 0){
+  if (readSerialReceive() != NULL) { 
+    playMe(r);
   
-    r = Serial.read();
-    
-  // Music 1
+  //delay(5000);
+  }
   
-    if (r=='1' ){
-    Never_Gonna_Give_You_Up();
-    
-    Serial.flush();}
-  // Music 2
-    else if (r=='2' ){
-    Imperial_March();
-    
-    Serial.flush();}
-  // Music 3
-    else if (r=='3' ){
-    Coffin_Dance();
-    
-    Serial.flush();}
-
-  delay(5000);
- }
+  
 }

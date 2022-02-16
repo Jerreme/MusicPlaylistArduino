@@ -42,12 +42,12 @@ Arduino1
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:Arduino1.My.Resources.Resources.music_note_icon_vector_illustration">
+<member name="P:Arduino1.My.Resources.Resources.icons8_play_4_32">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:Arduino1.My.Resources.Resources.play">
+<member name="P:Arduino1.My.Resources.Resources.music_note_icon_vector_illustration">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
