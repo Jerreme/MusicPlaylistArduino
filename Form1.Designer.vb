@@ -42,7 +42,11 @@ Partial Class Form1
         Me.Guna2GradientButton1 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.SerialPort1 = New System.IO.Ports.SerialPort(Me.components)
         Me.comListener = New System.Windows.Forms.Timer(Me.components)
+<<<<<<< Updated upstream
         Me.comportLabel = New System.Windows.Forms.Label()
+=======
+        Me.Button1 = New System.Windows.Forms.Button()
+>>>>>>> Stashed changes
         Me.Guna2Panel1.SuspendLayout()
         Me.Guna2Panel5.SuspendLayout()
         Me.Guna2Panel4.SuspendLayout()
@@ -64,6 +68,7 @@ Partial Class Form1
         'Guna2Panel1
         '
         Me.Guna2Panel1.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.Guna2Panel1.Controls.Add(Me.Button1)
         Me.Guna2Panel1.Controls.Add(Me.Guna2Panel5)
         Me.Guna2Panel1.Controls.Add(Me.Guna2Panel4)
         Me.Guna2Panel1.Controls.Add(Me.Guna2Panel3)
@@ -234,6 +239,7 @@ Partial Class Form1
         Me.comListener.Enabled = True
         Me.comListener.Interval = 200
         '
+<<<<<<< Updated upstream
         'comportLabel
         '
         Me.comportLabel.BackColor = System.Drawing.Color.Transparent
@@ -244,6 +250,13 @@ Partial Class Form1
         Me.comportLabel.Name = "comportLabel"
         Me.comportLabel.UseMnemonic = False
         Me.comportLabel.UseWaitCursor = True
+=======
+        'Button1
+        '
+        resources.ApplyResources(Me.Button1, "Button1")
+        Me.Button1.Name = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
+>>>>>>> Stashed changes
         '
         'Form1
         '
@@ -284,4 +297,5 @@ Partial Class Form1
     Friend WithEvents SerialPort1 As IO.Ports.SerialPort
     Friend WithEvents comListener As Timer
     Friend WithEvents comportLabel As Label
+    Friend WithEvents Button1 As Button
 End Class

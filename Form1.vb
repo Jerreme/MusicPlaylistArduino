@@ -86,4 +86,101 @@ Public Class Form1
             comportLabel.Text = "Not Connected"
         End If
     End Sub
+<<<<<<< Updated upstream
+=======
+
+    Private Sub comportLabel_Click(sender As Object, e As EventArgs) Handles comportLabel.Click
+
+    End Sub
+
+    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles title1.Click
+        Label1.Text = title1.Text
+        artist.Text = artist1.Text
+        SerialPort1.Open()
+        SerialPort1.Write("1/")
+        SerialPort1.Close()
+
+    End Sub
+
+    Private Sub Guna2GradientButton1_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton1.Click
+        If Label1.Text = title1.Text Then
+            SerialPort1.Write("2/")
+        ElseIf Label1.Text = title2.Text Then
+            SerialPort1.Write("3/")
+        ElseIf Label1.Text = title3.Text Then
+            SerialPort1.Write("1/")
+
+
+        End If
+    End Sub
+
+    Private Sub Guna2GradientButton2_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton2.Click
+        If Label1.Text = title1.Text Then
+            SerialPort1.Write("3/")
+        ElseIf Label1.Text = title3.Text Then
+            SerialPort1.Write("2/")
+        ElseIf Label1.Text = title2.Text Then
+            SerialPort1.Write("1/")
+
+        End If
+    End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+
+    End Sub
+
+    Private Sub title2_Click(sender As Object, e As EventArgs) Handles title2.Click
+        Label1.Text = title2.Text
+        artist.Text = artist2.Text
+        SerialPort1.Open()
+        SerialPort1.Write("2/")
+        SerialPort1.Close()
+
+    End Sub
+
+    Private Sub title3_Click(sender As Object, e As EventArgs) Handles title3.Click
+        Label1.Text = title3.Text
+        artist.Text = artist3.Text
+        SerialPort1.Open()
+        SerialPort1.Write("3/")
+        SerialPort1.Close()
+    End Sub
+
+    Private Sub Label5_Click(sender As Object, e As EventArgs) Handles artist1.Click
+
+        Label1.Text = title1.Text
+        artist.Text = artist1.Text
+    End Sub
+
+    Private Sub Guna2Panel3_Paint(sender As Object, e As PaintEventArgs) Handles Guna2Panel3.Paint
+        Label1.Text = title1.Text
+        artist.Text = artist1.Text
+    End Sub
+
+    Private Sub Guna2Panel4_Paint(sender As Object, e As PaintEventArgs) Handles Guna2Panel4.Paint
+        Label1.Text = title2.Text
+        artist.Text = artist2.Text
+    End Sub
+
+    Private Sub Guna2Panel5_Paint(sender As Object, e As PaintEventArgs) Handles Guna2Panel5.Paint
+        Label1.Text = title3.Text
+        artist.Text = artist3.Text
+    End Sub
+
+    Private Sub artist3_Click(sender As Object, e As EventArgs) Handles artist3.Click
+        Label1.Text = title3.Text
+        artist.Text = artist3.Text
+    End Sub
+
+    Private Sub artist2_Click(sender As Object, e As EventArgs) Handles artist2.Click
+        Label1.Text = title2.Text
+        artist.Text = artist2.Text
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        SerialPort1.Open()
+        SerialPort1.Write("0/")
+        SerialPort1.Close()
+    End Sub
+>>>>>>> Stashed changes
 End Class
